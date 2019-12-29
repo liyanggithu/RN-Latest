@@ -1,0 +1,25 @@
+.box {
+  width: 750px;
+  height: 100px;
+  background: #bbb;
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .box {
+    background: #f00;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+  .box {
+    background: $main-color;
+  }
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  flex: 1;
+  .box2 {
+  }
+}

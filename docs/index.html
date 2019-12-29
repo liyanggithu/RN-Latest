@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>rn-demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+    <style>
+      .task-list-item p {
+        display: inline-block;
+        margin: 2px;
+      }
+      body {
+        overflow-y: auto !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "rn-demo",
+        repo: "https://dev.tencent.com/u/heimiao66/p/RnDemo/git",
+        // homepage: 'https://dev.tencent.com/u/heimiao66/p/my-create-react-app-typescript/git/README.md',
+        loadSidebar: true,
+        subMaxLevel: 3,
+        auto2top: true,
+        search: "auto",
+        depth: 6,
+        placeholder: "搜索"
+      };
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+    <script src="//unpkg.com/docsify"></script>
+    <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-tsx.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-typescript.js"></script>
+  </body>
+</html>

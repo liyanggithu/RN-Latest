@@ -1,0 +1,9 @@
+.container {
+  flex-direction: row;
+  border-top: 1px;
+  height:50;
+  background: #bbb;
+  .item {
+    flex: 1;
+  }
+}

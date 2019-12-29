@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "react-native",
+    "noEmit": true,
+    "moduleResolution": "node",
+    "checkJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["components"],
+      "services": ["services"],
+      "stores": ["stores"],
+      "containers": ["containers"],
+      "utils": ["utils"],
+      "styles": ["styles"],
+      "libs": ["libs"],
+      "static": ["static"]
+    },
+    "allowJs": true, // 允许编译javascript文件。
+    "sourceMap": true, //用于debug
+    "alwaysStrict": false, // 以严格模式解析并为每个源文件生成"use strict"语句
+    "noImplicitAny": false, //在表达式和声明上有隐含的'any'类型时报错。
+    "experimentalDecorators": true, // 开启es7装饰器
+    "emitDecoratorMetadata": true, // 给源码里的装饰器声明加上设计类型元数据
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src", "types"],
+  "exclude": ["node_modules"]
+}

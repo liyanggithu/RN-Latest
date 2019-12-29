@@ -1,0 +1,7 @@
+.container {
+  flex-direction: row;
+  border-top: 1px;
+  .item {
+    flex: 1;
+  }
+}
