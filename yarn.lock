@@ -5416,9 +5416,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npm.taobao.org/qs/download/qs-6.5.2.tgz?cache=0&sync_timestamp=1569207136481&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqs%2Fdownload%2Fqs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^6.1.0, query-string@^6.4.2:
   version "6.9.0"
@@ -5524,13 +5524,6 @@ react-native-drawer-layout@1.3.2:
   integrity sha1-uXQNdmOh3E+IphucbZPS2UjqQm4=
   dependencies:
     react-native-dismiss-keyboard "1.0.0"
-
-react-native-fit-image@^1.5.5:
-  version "1.5.5"
-  resolved "https://registry.npm.taobao.org/react-native-fit-image/download/react-native-fit-image-1.5.5.tgz#c660d1ad74b9dcaa1cba27a0d9c23837e000226c"
-  integrity sha1-xmDRrXS53Kocuieg2cI4N+AAImw=
-  dependencies:
-    prop-types "^15.5.10"
 
 react-native-gesture-handler@^1.5.2:
   version "1.5.2"
